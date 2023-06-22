@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="profile.css">
+    <title>Scholar's Crate</title>
+</head>
+<body>
+    <section class="profile">
+        <nav>
+            <a href="index.html"><img src="./images/main_logo.png" alt="LOGO"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./schlorship.html">SCHOLARSHIPS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    <li><a href="./Profile.html">PROFILE</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>My Profile</h1>
+    </section>
+    <!-------content-->
+    <section class="container-body">
+    <div class="container">
+        <div class="title">Details</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Date of Birth</span>
+                <input type="date"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Age</span>
+                <input type="number" min="10"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="number"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="email"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Level</span>
+                <input type="text" placeholder="Current Level of Education" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Income</span>
+                <input type="number"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Gender</span>
+                <input type="text"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Religion</span>
+                <input type="text"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">Caste</span>
+                <input type="text"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">District</span>
+                <input type="text"  required>
+              </div>
+              <div class="input-box">
+                <span class="details">State</span>
+                <input type="text"  required>
+              </div>
+              
+            </div>
+            <div class="button">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <!-------footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Quas nobis ipsam vel quod impedit repudiandae vitae incidunt pariatur recusandae ducimus.</p>
+    </section>
+
+
+
+
+<!---Javascript for toggle menu---->
+    <script>
+        var navlinks=document.getElementById("nav-links");
+        
+        function showmenu(){
+            navlinks.styles.right="0";
+        }
+        function hidemenu(){
+            navlinks.styles.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>

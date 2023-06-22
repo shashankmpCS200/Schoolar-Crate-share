@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>Scholar's Crate</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/main_logo.png" alt="LOGO"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./schlorship.html">SCHOLARSHIPS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    <li><a href="./Profile.html">PROFILE</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-------content-->
+    <section class="about us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Scholar's Crate</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam fuga quia necessitatibus quod sapiente est quibusdam commodi, dolores suscipit ratione consequuntur itaque. Ullam assumenda praesentium fugit dolor culpa inventore dolores nam quas atque officiis autem, excepturi iste eveniet nobis delectus voluptas dignissimos! Modi ex, ratione saepe dolor quis voluptatum quisquam dolores voluptate nobis? Cumque quod natus quo reiciendis ut nihil deleniti dolore molestiae? Repellat corrupti obcaecati consequuntur necessitatibus quibusdam accusantium accusamus facilis adipisci quae maxime maiores, aperiam assumenda quos similique illum tenetur. Nobis animi libero enim necessitatibus cum fugiat. Recusandae, dolores sit magnam animi ab repellendus laboriosam quisquam, maiores, eum ipsa rerum ipsum magni fugiat harum! Quis quia est fuga repudiandae cum maiores deserunt harum temporibus, velit illo doloremque officia incidunt itaque aliquid eveniet. Reprehenderit doloremque earum nemo quaerat, exercitationem repellendus nulla, odio eum voluptas repellat asperiores quam, doloribus commodi. Ab officiis, quod veniam vero dicta dolor mollitia facilis unde minima. Debitis neque fuga voluptate nobis ab perferendis excepturi, vel officia accusantium quam officiis tempora molestiae. Ab, atque obcaecati asperiores dolor perferendis voluptates, iusto, ducimus a quaerat optio provident assumenda tenetur doloribus. Culpa perspiciatis dolores saepe, consectetur praesentium blanditiis! Esse enim voluptatum adipisci molestias omnis sed eum, consequatur perferendis soluta ab sunt nisi unde dolorem ut architecto voluptate? Maxime provident quasi obcaecati eligendi expedita repellendus sapiente cumque libero repellat quod illum amet ratione perferendis nisi quis accusamus quos, quae optio delectus odit sint odio, quisquam commodi ea. Sed temporibus optio a illum recusandae et, consequuntur laudantium delectus non mollitia eum, numquam adipisci molestiae! Quisquam quo a, nam, ex accusantium, exercitationem esse voluptas quam adipisci aperiam recusandae. Enim odit veniam molestias quos? Doloremque dolorum aspernatur dignissimos odit quas totam ullam fuga, sunt quibusdam amet facere placeat beatae dolorem voluptas architecto voluptatum. Velit, similique mollitia! Earum quis ratione amet iusto ex autem.</p>
+                <a href="./schlorship.html" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/library.png" alt="">
+            </div>
+            
+        </div>
+    </section>
+
+    <!-------footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Quas nobis ipsam vel quod impedit repudiandae vitae incidunt pariatur recusandae ducimus.</p>
+    </section>
+
+
+
+
+<!---Javascript for toggle menu---->
+    <script>
+        var navlinks=document.getElementById("nav-links");
+        
+        function showmenu(){
+            navlinks.styles.right="0";
+        }
+        function hidemenu(){
+            navlinks.styles.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>
